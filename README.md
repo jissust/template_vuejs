@@ -1,4 +1,4 @@
 # webconvue
 
 Practica:
-Implemnto los componentes de vuejs en un template de prueba. 
+Implemento los componentes de vuejs en un template de prueba. 
