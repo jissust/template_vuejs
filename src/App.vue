@@ -1,28 +1,28 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="row hero no-gutters">
+    <ColumnaUno></ColumnaUno>
+    <columnaDos></columnaDos>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ColumnaUno from "./components/ColumnaUno";
+import ColumnaDos from "./components/ColumnaDos";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ColumnaUno,
+    ColumnaDos
   }
 }
+import '../node_modules/jquery/dist/jquery.min.js';
+import '../node_modules/popper.js/dist/umd/popper.js';
+import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import '../node_modules/font-awesome/css/font-awesome.css';
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+@import './assets/css/estilo.css';
 </style>
